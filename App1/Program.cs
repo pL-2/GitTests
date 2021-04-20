@@ -6,7 +6,12 @@ namespace App1
     {
         static void Main( string[] args )
         {
-            Console.WriteLine( "Hello my dear little ones!" );
+            WriteOut( "Hello my dear little ones!" );
+        }
+
+        static void WriteOut( string message )
+        {
+            Console.WriteLine( message );
         }
     }
 }
